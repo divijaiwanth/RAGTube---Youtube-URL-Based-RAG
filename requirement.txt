@@ -1,0 +1,12 @@
+pytube
+langchain
+langchain_community
+streamlit
+python-dotenv
+langchain-core
+langchain-ollama
+langgraph
+youtube-transcript-api
+pytube
+faiss-cpu
+langchain-huggingface
