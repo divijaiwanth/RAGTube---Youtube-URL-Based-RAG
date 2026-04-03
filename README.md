@@ -45,7 +45,7 @@ YouTube Video → Transcript → Chunking → Embeddings → FAISS
 ## Setup
 
 ```bash
-git clone https://github.com/your-username/ragtube.git
+git clone https://github.com/divijaiwanth/RAGTube---Youtube-URL-Based-RAG.git
 cd ragtube
 ```
 ```bash
@@ -53,7 +53,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 Run Local Model
@@ -76,20 +76,29 @@ Receive an answer generated from the transcript context
 ```
 
 # Design Highlights
-Implements a modular RAG pipeline (ingestion → retrieval → generation)
+Implements a modular RAG pipeline 
+(ingestion → retrieval → generation)
 Uses chunking with overlap to preserve context during retrieval
 Optimized for local execution with no dependency on external APIs
+
 Demonstrates integration of vector search with LLM-based reasoning
 Limitations
+
 Works only for videos with available transcripts
 Vector database is currently in-memory (not persisted)
+
 Performance depends on transcript quality and chunking strategy
 Future Improvements
+
 Persistent vector storage (FAISS save/load)
 Multi-video knowledge base
+
 Conversational memory (multi-turn queries)
 Hybrid search (keyword + vector)
-Reranking for improved retrieval accuracy
-License
 
+Reranking for improved retrieval accuracy
+
+License
+```bash
 This project is intended for educational and experimental purposes.
+```
