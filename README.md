@@ -45,8 +45,8 @@ YouTube Video → Transcript → Chunking → Embeddings → FAISS
 ## Setup
 
 ```bash
-git clone https://github.com/divijaiwanth/RAGTube---Youtube-URL-Based-RAG.git
-cd RAGTube---Youtube-URL-Based-RAG
+git clone https://github.com/divijaiwanth/RAGTube-Youtube-URL-Based-RAG.git
+cd RAGTube-Youtube-URL-Based-RAG
 ```
 ```bash
 python -m venv venv
